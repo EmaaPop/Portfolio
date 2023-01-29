@@ -1,0 +1,263 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/* Style the body */
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #101421;
+  background: #e0e0e0;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* Style the header */
+.header {
+  font-family: "Open Sans", sans-serif;
+  color: #0039f5;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Style the navigation bar links */
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e0e0e0;
+  overflow: auto;
+  height: auto;
+  font-size: 26px;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #0039f5;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.left-link {
+  flex: 1 1 200px;
+}
+
+.tab {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: #0039f5;
+
+}
+
+/* Active/current link */
+.active {
+  background-color: #0039f5;
+  color: #fafafa;
+}
+
+a:hover {
+  cursor: pointer;
+  background: #e0e0e0;
+  color: #0039f5;
+  background: radial-gradient(circle, #e0e0e0 0%, #74a1efad 70%, #e0e0e0 80%);
+}
+
+a::after {
+  background-color: #0039f5;
+}
+
+
+h2 {
+  font-weight: lighter;
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #1b1d25;
+}
+
+/* Style the footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  background: #e0e0e0;
+  margin-top: 20px;
+}
+
+@media (min-width: 602px) and (max-width: 800px) {
+  #header {
+    font-size: 28px;
+  }
+}
+
+/*make nav bar extend colour to full width when in phone mode -> responsive*/
+
+/*--------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+
+.intro {
+  color: #0039f5;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.home_wrapper {
+  max-width: 1200px;
+  margin: 4rem auto 0;
+  background: #e0e0e0;
+}
+
+a {
+  color: #0039f5;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+a::after {
+  color: #0039f5;
+  text-decoration: none;
+}
+
+.bottom-nav {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: #e0e0e0;
+  overflow: auto;
+  height: auto;
+}
+
+
+.nav a {
+  float: left;
+  display: grid;
+  color: #0039f5;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.left-link {
+  flex: 1 1 200px;
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: #0039f5;
+
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+
+/* All children of .card */
+.card * {
+  color: #0a0a13;
+}
+
+.card a {
+  color: #0039f5;
+}
+
+/* Style the cards */
+.card {
+  box-shadow: 0 0px 30px 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.image img:hover {
+  filter: brightness(50%);
+}
+
+.left {
+  flex: 1 1 200px;
+}
+
+.projects {
+  max-width: 98rem;
+}
+
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.card-projects {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.title {
+  color: #0039f5;
+  font-weight: lighter;
+}
+
+.equal-height {
+  display: flex;
+  align-items: stretch;
+}
+
+.render {
+  position: absolute;
+  height: 700px;
+  width: 1200px;
+  top: 0;
+  left: 0;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials {
+  padding: 40px;
+}
+
+/*--------------------------------------------------------------
+# CV
+--------------------------------------------------------------*/
+
+/* --------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+/* .form {
+  padding: 10px;
+}
+
+.label {
+  color: #292929;
+  line-height: 2em;
+}
+
+.input {
+  text-align: start
+} */
