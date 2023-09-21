@@ -180,7 +180,7 @@ a::after {
 
 /* Style the cards */
 .card {
-  box-shadow: 0 0px 20px 0px;
+  box-shadow: 0 0px 10px 0px;
   background-color: #ffffff;
   border-radius: 15px;
   padding: 15px;
