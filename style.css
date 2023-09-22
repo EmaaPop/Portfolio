@@ -76,10 +76,6 @@ a::after {
 }
 
 
-h2 {
-  font-weight: lighter;
-}
-
 /* Style the paragraphs */
 p {
   font-size: 1em;
@@ -111,7 +107,6 @@ p {
 
 .intro {
   color: #0039f5;
-  font-weight: lighter;
   text-align: center;
 }
 
@@ -219,7 +214,6 @@ video {
 
 .title {
   color: #0039f5;
-  font-weight: lighter;
 }
 
 .equal-height {
