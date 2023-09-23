@@ -11,6 +11,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.sublist {
+  text-indent: 10px;
+}
 
 /* Style the header */
 .header {
