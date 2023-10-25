@@ -51,6 +51,50 @@ nav {
   flex: 1 1 200px;
 }
 
+
+#connect-buttons {
+  margin-bottom: 60px;
+  font-size: large;
+}
+
+.btn {
+  transition: all .12s linear;
+}
+
+.btn,
+.btn-default,
+.connect-btn {
+  width: 144px;
+  text-align: center;
+  border: 8px solid #e0e0e0;
+  padding: 4px
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.connect-btn {
+  color: #0039f5;
+  background-color: #e0e0e0;
+}
+
+.connect-btn:hover {
+  background-color: #e0e0e0;
+  color: #0039f5;
+  border-color: #e0e0e0;
+}
+
+.connect-btn:focus {
+  color: #e0e0e0;
+  background-color: #0039f5;
+  border: 4px solid #e0e0e0;
+}
+
+
 .tab {
   display: inline-block;
   text-align: center;
