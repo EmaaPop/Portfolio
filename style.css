@@ -263,6 +263,16 @@ video {
   color: #0039f5;
 }
 
+.CompanyWebsite{
+  position:sticky;
+  left: 1400px;
+  top: 150px;
+}
+
+.Description {
+  padding: 4px;
+}
+
 .equal-height {
   display: flex;
   align-items: stretch;
@@ -276,6 +286,11 @@ video {
   left: 0;
 }
 
+/* @media (min-width: 602px) and (max-width: 800px) {
+  #CompanyWebsite {
+    ;
+  }
+} */
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
