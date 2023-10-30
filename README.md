@@ -1,4 +1,4 @@
 # Portfolio
 Personal Website in progress.
 
-## https://emapop.app/projects.html
+## https://emapop.app
